@@ -1,0 +1,351 @@
+diff --git a/.classpath b/.classpath
+new file mode 100644
+index 0000000..f9514b3
+--- /dev/null
++++ b/.classpath
+@@ -0,0 +1,31 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<classpath>
++	<classpathentry kind="src" path="src/main/java"/>
++	<classpathentry kind="src" path="src/main/resources"/>
++	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/commons-logging.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/javax.inject.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-aop-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-aspects-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-beans-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-build-src-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-context-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-context-support-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-core-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-expression-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-framework-bom-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-instrument-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-instrument-tomcat-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-jdbc-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-jms-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-messaging-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-orm-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-oxm-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-test-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-tx-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-web-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-webmvc-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-webmvc-portlet-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="lib" path="/Users/anaisabelvegascaceres/Documents/Atrium/Documentacion Nueva Master/Documentacion Master Avanzado/LibreriasSpring4 release/spring-websocket-4.0.0.RELEASE.jar"/>
++	<classpathentry kind="output" path="bin"/>
++</classpath>
+diff --git a/.project b/.project
+new file mode 100644
+index 0000000..917b76c
+--- /dev/null
++++ b/.project
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<projectDescription>
++	<name>Ejercicio3</name>
++	<comment></comment>
++	<projects>
++	</projects>
++	<buildSpec>
++		<buildCommand>
++			<name>org.eclipse.jdt.core.javabuilder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++	</buildSpec>
++	<natures>
++		<nature>org.eclipse.jdt.core.javanature</nature>
++	</natures>
++</projectDescription>
+diff --git a/.settings/org.eclipse.jdt.core.prefs b/.settings/org.eclipse.jdt.core.prefs
+new file mode 100644
+index 0000000..7341ab1
+--- /dev/null
++++ b/.settings/org.eclipse.jdt.core.prefs
+@@ -0,0 +1,11 @@
++eclipse.preferences.version=1
++org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
++org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7
++org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
++org.eclipse.jdt.core.compiler.compliance=1.7
++org.eclipse.jdt.core.compiler.debug.lineNumber=generate
++org.eclipse.jdt.core.compiler.debug.localVariable=generate
++org.eclipse.jdt.core.compiler.debug.sourceFile=generate
++org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
++org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
++org.eclipse.jdt.core.compiler.source=1.7
+diff --git a/bin/applicationContext.xml b/bin/applicationContext.xml
+new file mode 100755
+index 0000000..f10c1a7
+--- /dev/null
++++ b/bin/applicationContext.xml
+@@ -0,0 +1,53 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<beans xmlns="http://www.springframework.org/schema/beans"
++       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++
++       xsi:schemaLocation="http://www.springframework.org/schema/beans
++       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
++       http://www.springframework.org/schema/aop 
++       http://www.springframework.org/schema/aop/spring-aop-4.0.xsd" 
++       xmlns:aop="http://www.springframework.org/schema/aop">
++
++    <bean id="beanCliente" class="com.grupoatrium.modelo.Cliente" factory-method="crearInstancias">
++        <property name="nombre" value="Empresa Spring S.L." />
++        <property name="nif" value="A-12345678" />
++        <property name="direccion" value="C/ Mayor 16, 28080 Madrid" />
++    </bean>
++
++<!--  Haciendo referencia a sus propiedades-->
++    <bean id="factura1" class="com.grupoatrium.modelo.Factura">
++        <property name="cliente" ref="beanCliente" />
++        <property name="importe" value="10000" />
++        <property name="fecha" >
++            <bean class="java.util.Date" />
++        </property>
++    </bean>
++
++<!--A través del constructor por tipo de datos-->
++    <bean id="factura2" class="com.grupoatrium.modelo.Factura">
++        <constructor-arg type="com.grupoatrium.modelo.Cliente" ref="beanCliente"/>
++        <constructor-arg type="double" value="12000" />
++        <constructor-arg type="java.util.Date" >
++            <bean class="java.util.Date" />
++        </constructor-arg>
++    </bean>
++
++<!--A través del constructor por posición-->
++    <bean id="factura3" class="com.grupoatrium.modelo.Factura">
++        <constructor-arg index="0" ref="beanCliente"/>
++        <constructor-arg index="1" value="13000" />
++        <constructor-arg index="2" >
++            <bean class="java.util.Date" />
++        </constructor-arg>
++    </bean>
++
++<!--A través del constructor por nombre-->
++    <bean id="factura4" class="com.grupoatrium.modelo.Factura">
++        <constructor-arg name="cliente" ref="beanCliente"/>
++        <constructor-arg name="importe" value="14000" />
++        <constructor-arg name="fecha" >
++            <bean class="java.util.Date" />
++        </constructor-arg>
++    </bean>
++
++</beans>
+diff --git a/bin/com/grupoatrium/cliente/Main.class b/bin/com/grupoatrium/cliente/Main.class
+new file mode 100644
+index 0000000..4a13304
+--- /dev/null
++++ b/bin/com/grupoatrium/cliente/Main.class
+Binary files differ
+diff --git a/bin/com/grupoatrium/modelo/Cliente.class b/bin/com/grupoatrium/modelo/Cliente.class
+new file mode 100644
+index 0000000..acf0479
+--- /dev/null
++++ b/bin/com/grupoatrium/modelo/Cliente.class
+Binary files differ
+diff --git a/bin/com/grupoatrium/modelo/Factura.class b/bin/com/grupoatrium/modelo/Factura.class
+new file mode 100644
+index 0000000..43eed55
+--- /dev/null
++++ b/bin/com/grupoatrium/modelo/Factura.class
+Binary files differ
+diff --git a/src/main/java/com/cursoJava/cliente/Main.java b/src/main/java/com/cursoJava/cliente/Main.java
+new file mode 100755
+index 0000000..793f5c4
+--- /dev/null
++++ b/src/main/java/com/cursoJava/cliente/Main.java
+@@ -0,0 +1,25 @@
++package com.cursoJava.cliente;
++
++import org.springframework.context.ApplicationContext;
++import org.springframework.context.support.ClassPathXmlApplicationContext;
++
++import com.cursoJava.modelo.Factura;
++
++public class Main {
++
++    public static void main(String[] args) {
++        // Generar el contenedor de beans indicando el archivo xml
++        ApplicationContext contenedor =
++                new ClassPathXmlApplicationContext("applicationContext.xml");
++
++        Factura f1 = contenedor.getBean("factura1", Factura.class);
++        Factura f2 = contenedor.getBean("factura2", Factura.class);
++        Factura f3 = contenedor.getBean("factura3", Factura.class);
++        Factura f4 = contenedor.getBean("factura4", Factura.class);
++        System.out.println(f1);
++        System.out.println(f2);
++        System.out.println(f3);
++        System.out.println(f4);
++    }
++
++}
+diff --git a/src/main/java/com/cursoJava/modelo/Cliente.java b/src/main/java/com/cursoJava/modelo/Cliente.java
+new file mode 100755
+index 0000000..a75274d
+--- /dev/null
++++ b/src/main/java/com/cursoJava/modelo/Cliente.java
+@@ -0,0 +1,46 @@
++package com.cursoJava.modelo;
++
++public class Cliente {
++
++    private String nombre;
++    private String nif;
++    private String direccion;
++
++    private Cliente() {
++    }
++
++    // Factoria estatica
++    public static Cliente crearInstancias(){
++        return new Cliente();
++    }
++
++    public String getDireccion() {
++        return direccion;
++    }
++
++    public void setDireccion(String direccion) {
++        this.direccion = direccion;
++    }
++
++    public String getNif() {
++        return nif;
++    }
++
++    public void setNif(String nif) {
++        this.nif = nif;
++    }
++
++    public String getNombre() {
++        return nombre;
++    }
++
++    public void setNombre(String nombre) {
++        this.nombre = nombre;
++    }
++
++    @Override
++    public String toString() {
++        return "Cliente{" + "nombre=" + nombre + "nif=" + nif + "direccion=" + direccion + '}';
++    }
++
++}
+diff --git a/src/main/java/com/cursoJava/modelo/Factura.java b/src/main/java/com/cursoJava/modelo/Factura.java
+new file mode 100755
+index 0000000..2dfdd04
+--- /dev/null
++++ b/src/main/java/com/cursoJava/modelo/Factura.java
+@@ -0,0 +1,49 @@
++package com.cursoJava.modelo;
++
++import java.util.Date;
++
++public class Factura {
++
++    private Cliente cliente;
++    private double importe;
++    private Date fecha;
++
++    public Factura() {
++    }
++
++    public Factura(Cliente cliente, double importe, Date fecha) {
++        this.cliente = cliente;
++        this.importe = importe;
++        this.fecha = fecha;
++    }
++
++    public Cliente getCliente() {
++        return cliente;
++    }
++
++    public void setCliente(Cliente cliente) {
++        this.cliente = cliente;
++    }
++
++    public Date getFecha() {
++        return fecha;
++    }
++
++    public void setFecha(Date fecha) {
++        this.fecha = fecha;
++    }
++
++    public double getImporte() {
++        return importe;
++    }
++
++    public void setImporte(double importe) {
++        this.importe = importe;
++    }
++
++    @Override
++    public String toString() {
++        return "Factura{" + " cliente=" + cliente + " importe=" + importe + " fecha=" + fecha + '}';
++    }
++
++}
+diff --git a/src/main/resources/applicationContext.xml b/src/main/resources/applicationContext.xml
+new file mode 100755
+index 0000000..d8eb794
+--- /dev/null
++++ b/src/main/resources/applicationContext.xml
+@@ -0,0 +1,53 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<beans xmlns="http://www.springframework.org/schema/beans"
++       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++
++       xsi:schemaLocation="http://www.springframework.org/schema/beans
++       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
++       http://www.springframework.org/schema/aop 
++       http://www.springframework.org/schema/aop/spring-aop-4.0.xsd" 
++       xmlns:aop="http://www.springframework.org/schema/aop">
++
++    <bean id="beanCliente" class="com.grupoatrium.modelo.Cliente" factory-method="crearInstancias">
++        <property name="nombre" value="Empresa Spring S.L." />
++        <property name="nif" value="A-12345678" />
++        <property name="direccion" value="C/ Mayor 16, 28080 Madrid" />
++    </bean>
++
++<!--  Haciendo referencia a sus propiedades-->
++    <bean id="factura1" class="com.grupoatrium.modelo.Factura">
++        <property name="cliente" ref="beanCliente" />
++        <property name="importe" value="10000" />
++        <property name="fecha" >
++            <bean class="java.util.Date" />
++        </property>
++    </bean>
++
++<!--A través del constructor por tipo de datos-->
++    <bean id="factura2" class="com.cursojava.modelo.Factura">
++        <constructor-arg type="cursojava.modelo.Cliente" ref="beanCliente"/>
++        <constructor-arg type="double" value="12000" />
++        <constructor-arg type="java.util.Date" >
++            <bean class="java.util.Date" />
++        </constructor-arg>
++    </bean>
++
++<!--A través del constructor por posición-->
++    <bean id="factura3" class="com.cursojava.modelo.Factura">
++        <constructor-arg index="0" ref="beanCliente"/>
++        <constructor-arg index="1" value="13000" />
++        <constructor-arg index="2" >
++            <bean class="java.util.Date" />
++        </constructor-arg>
++    </bean>
++
++<!--A través del constructor por nombre-->
++    <bean id="factura4" class="com.cursojava.modelo.Factura">
++        <constructor-arg name="cliente" ref="beanCliente"/>
++        <constructor-arg name="importe" value="14000" />
++        <constructor-arg name="fecha" >
++            <bean class="java.util.Date" />
++        </constructor-arg>
++    </bean>
++
++</beans>
